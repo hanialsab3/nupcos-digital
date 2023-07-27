@@ -5,7 +5,9 @@
   Display:none !important;
 }
 
-
+body{
+background-color: red !important;
+}
 .modal-live-form ng-scope{
   background-color: red !important;
 }
