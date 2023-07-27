@@ -1,7 +1,7 @@
 .neb-website-grading1to10 neb-content neb-wcag {
-  background-color: red;
+  background-color: red !important;
 }
 
 body{
-background-color: red;
+background-color: red !important;
 }
