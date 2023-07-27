@@ -2,7 +2,7 @@
   background-color: red !important;
 }
 .surveyBtn.surveyBtn_close { 
-  Display:none;
+  Display:none !important;
 }
 
 .modal-live-form ng-scope{
