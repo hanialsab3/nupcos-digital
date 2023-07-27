@@ -1,6 +1,9 @@
 .neb-website-grading1to10 neb-content neb-wcag {
   background-color: red !important;
 }
+modal-live-form ng-scope{
+  background-color: red !important;
+}
 
 body{
 background-color: red !important;
