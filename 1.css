@@ -5,6 +5,10 @@
   Display:none !important;
 }
 
+[class*=control-label"] {
+font-weight:bold !important;
+}
+
 .modal-live-form ng-scope{
   background-color: red !important;
 }
