@@ -1,13 +1,13 @@
 .neb-website-grading1to10 neb-content neb-wcag {
   background-color: red !important;
 }
-modal-live-form ng-scope{
+.modal-live-form ng-scope{
   background-color: red !important;
 }
 
 @font-face {
 font-family: Co Headline;
-rc: url(https://fonts.cdnfonts.com/css/co-headline);
+src: url(https://fonts.cdnfonts.com/css/co-headline);
 }
 
 :root{
