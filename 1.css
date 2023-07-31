@@ -3,10 +3,6 @@ background-color:#1C2346 !important;
 height: 20%;
 }
 
-.heading{
-background-color:#1C2346 !important;
-width: 100% !important;
-}
 
 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
