@@ -56,3 +56,12 @@ html[lang="ar"] .NPSanchor p.ratingMinLabel {
 html[lang="ar"] .NPSanchor p.ratingMaxLabel {
   text-align: left !important;
 }
+
+html[lang="ar"] .Ratingsanshor > div > div,
+html[lang="ar"] .NPSanchor > div > div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  direction: rtl;
+}
+
