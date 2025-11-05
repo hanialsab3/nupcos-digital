@@ -41,4 +41,28 @@ html[lang="ar"] .Ratingsanshor p.ratingMaxLabel{
 html[lang="ar"] .Ratingsanshor> div > div{
     direction: rtl;
 }
+
+html[lang="ar"] .Ratingsanshor p.ratingMinLabel {
+    text-align: right !important;
+}
+
+html[lang="ar"] .Ratingsanshor p.ratingMaxLabel{
+    text-align: left !important;
+}
+
+
+html[lang="ar"] .Ratingsanshor> div > div{
+    direction: rtl;
+}
+
+html[lang="ar"] .NPSanchor> div > div{
+    direction: rtl;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMinLabel {
+    text-align: right !important;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMaxLabel{
+    text-align: left !important;
 }
