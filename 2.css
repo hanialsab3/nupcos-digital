@@ -1,10 +1,10 @@
 :root {
   
---palette-rating-number-selected: #9e8a66;
---palette-rating-number-hover: #9e8a66;
---palette-action-hover : #9e8a66;
---palette-core-outline: #9e8a66; 
---palette-core-primary: #9e8a66}
+--palette-rating-number-selected: #71bfb7;
+--palette-rating-number-hover: #71bfb7;
+--palette-action-hover : #71bfb7;
+--palette-core-outline: #71bfb7; 
+--palette-core-primary: #71bfb7}
 }
 
 .Ratings span label{
