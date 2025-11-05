@@ -1,3 +1,8 @@
+:root {
+  --palette-rating-number-hover: #9e8a66;
+  --palette-rating-number-selected: #9e8a66;
+}
+
 .Ratings span label{
     height: 40px;
     width: 40px;
