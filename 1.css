@@ -82,4 +82,30 @@ html[lang="ar"] [class*="ratings"] p.ratingMaxLabel {
   text-align: left !important;
 }
 
+/* RTL stars: mirror the container, then un-mirror the children */
+html[lang="ar"] .Ratingsanshor > div > div,
+html[lang="ar"] .NPSanchor > div > div,
+html[lang="ar"] [class*="Rating"] > div > div,
+html[lang="ar"] [class*="rating"] > div > div {
+  transform: scaleX(-1) !important;   /* flips visual order & hover sweep */
+  transform-origin: center !important;
+  direction: ltr !important;           /* keep internal logic untouched */
+}
+
+/* Un-flip each star/child so icons/numbers read normally */
+html[lang="ar"] .Ratingsanshor > div > div > *,
+html[lang="ar"] .NPSanchor > div > div > *,
+html[lang="ar"] [class*="Rating"] > div > div > *,
+html[lang="ar"] [class*="rating"] > div > div > * {
+  transform: scaleX(-1) !important;
+}
+
+/* Labels alignment */
+html[lang="ar"] .Ratingsanshor p.ratingMinLabel,
+html[lang="ar"] .NPSanchor p.ratingMinLabel { text-align: right !important; }
+
+html[lang="ar"] .Ratingsanshor p.ratingMaxLabel,
+html[lang="ar"] .NPSanchor p.ratingMaxLabel { text-align: left !important; }
+
+
 
