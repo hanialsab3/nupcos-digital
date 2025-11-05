@@ -23,10 +23,10 @@
 
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
-    --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
-    --palette-rating-custom-selected-outline: #c7a979;
-    --palette-rating-custom-outline: #dfdfdf;
+    --palette-rating-custom-hover: #71bfb7;
+    --palette-rating-custom-selected: #71bfb7;
+    --palette-rating-custom-selected-outline: #71bfb7;
+    --palette-rating-custom-outline: #71bfb7;
     display: flex;
     justify-content: space-evenly;
     cursor: pointer;
