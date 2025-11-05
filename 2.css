@@ -64,4 +64,22 @@ html[lang="ar"] .NPSanchor > div > div {
   justify-content: flex-end;
   direction: rtl;
 }
+html[lang="ar"] [class*="Ratings"] > div > div,
+html[lang="ar"] [class*="ratings"] > div > div {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-end !important;
+  direction: rtl !important;
+}
+
+/* Make sure text labels flip sides */
+html[lang="ar"] [class*="Ratings"] p.ratingMinLabel,
+html[lang="ar"] [class*="ratings"] p.ratingMinLabel {
+  text-align: right !important;
+}
+html[lang="ar"] [class*="Ratings"] p.ratingMaxLabel,
+html[lang="ar"] [class*="ratings"] p.ratingMaxLabel {
+  text-align: left !important;
+}
+
 
