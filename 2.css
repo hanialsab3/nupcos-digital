@@ -1,0 +1,58 @@
+.Ratings span label {
+  height: 40px;
+  width: 40px;
+  padding-top: 5px !important;
+  font-size: 14px;
+}
+
+.Ratingsanshor > div {
+  text-align: center !important;
+  display: initial;
+}
+
+.Ratingsanshor > div > div {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  --palette-rating-custom-hover: #c7a979;
+  --palette-rating-custom-selected: #c7a979;
+  --palette-rating-custom-selected-outline: #c7a979;
+  --palette-rating-custom-outline: #dfdfdf;
+  --palette-core-components: #dfdfdf;
+}
+
+/* Apply hover effect to the hovered star */
+.Ratingsanshor > div > div:hover {
+  --palette-rating-custom-outline: transparent;
+}
+
+/* Arabic RTL adjustments */
+html[lang="ar"] .Ratingsanshor p.ratingMinLabel {
+  text-align: right !important;
+}
+
+html[lang="ar"] .Ratingsanshor p.ratingMaxLabel {
+  text-align: left !important;
+}
+
+html[lang="ar"] .Ratingsanshor > div > div {
+  direction: rtl;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* NPS alignment for Arabic */
+html[lang="ar"] .NPSanchor > div > div {
+  direction: rtl;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMinLabel {
+  text-align: right !important;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMaxLabel {
+  text-align: left !important;
+}
