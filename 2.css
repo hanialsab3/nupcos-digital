@@ -28,7 +28,7 @@
     --palette-rating-custom-hover: #71bfb7;
     --palette-rating-custom-selected: #71bfb7;
     --palette-rating-custom-selected-outline: #71bfb7;
-    --palette-rating-custom-outline: #71bfb7;
+    --palette-rating-custom-outline: transparent;
     display: flex;
     justify-content: space-evenly;
     cursor: pointer;
