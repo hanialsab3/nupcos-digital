@@ -5,7 +5,7 @@
 --palette-action-hover : #71bfb7;
 --palette-core-outline: #71bfb7; 
 --palette-core-primary: #71bfb7;
---powered-by-display: none;
+--powered-by-display: none !important;
 }
 
 .Ratings span label{
