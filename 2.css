@@ -4,7 +4,7 @@
 --palette-rating-number-hover: #71bfb7;
 --palette-action-hover : transparent;
 --palette-core-outline: #71bfb7;
---palette-core-primary: #71bfb7;
+--palette-core-primary: #71bfb7 !important;
 --powered-by-display: none !important;
 --palette-rating-custom-outline: transparent;
 }
