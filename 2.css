@@ -6,7 +6,7 @@
 <!-- --palette-core-outline: #71bfb7; -->
 --palette-core-primary: #71bfb7;
 --powered-by-display: none !important;
---palette-rating-custom-outline
+--palette-rating-custom-outline: transparent;
 }
 
 .Ratings span label{
